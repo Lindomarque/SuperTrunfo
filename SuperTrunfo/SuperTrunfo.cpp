@@ -16,36 +16,36 @@ int main() {
 
 	// Solicitação dos dados da carta 1
 	printf("Digite o estado da carta 1: "); 
-	scanf_s("%s", &estado1, 1); 
+	scanf("%s", &estado1, 1); 
 	printf("Digite o código do estado da carta 1:");
-	scanf_s("%s", &codigo1, 4);
+	scanf("%s", &codigo1, 4);
 	printf("Digite a cidade da carta 1: ");
-	scanf_s("%s", &cidade1, 21);
+	scanf("%s", &cidade1, 21);
 	printf("Digite a população da carta 1: ");
-	scanf_s("%d", &populacao1);
+	scanf("%d", &populacao1);
 	printf("Digite a área da carta 1: ");
-	scanf_s("%f", &area1);
+	scanf("%f", &area1);
 	printf("Digite o PIB da carta 1: ");
-	scanf_s("%f", &pib1);
+	scanf("%f", &pib1);
 	printf("Digite os pontos turísticos da carta 1: ");
-	scanf_s("%d", &pontos1);
+	scanf("%d", &pontos1);
 	printf("DADOS DA CAARTA 1 CAASTRADOS COM SUCESSO!\n\n");
 
 	// Solicitação dos dados da carta 2
 	printf("Digite o estado da carta 2: ");
-	scanf_s("%s", &estado2, 1);
+	scanf("%s", &estado2, 1);
 	printf("Digite o código do estado da carta 2:");
-	scanf_s("%s", &codigo2, 4);
+	scanf("%s", &codigo2, 4);
 	printf("Digite a cidade da carta 2: ");
-	scanf_s("%s", &cidade2, 21);
+	scanf("%s", &cidade2, 21);
 	printf("Digite a população da carta 2: ");
-	scanf_s("%d", &populacao2);
+	scanf("%d", &populacao2);
 	printf("Digite a área da carta 2: ");
-	scanf_s("%f", &area2);
+	scanf("%f", &area2);
 	printf("Digite o PIB da carta 2: ");
-	scanf_s("%f", &pib2);
+	scanf("%f", &pib2);
 	printf("Digite os pontos turísticos da carta 2: ");
-	scanf_s("%d", &pontos2);
+	scanf("%d", &pontos2);
 	printf("DADOS DA CARTA 2 CADASTRADOS COM SUCESSO!\n\n");
 
 	//Imprime os dados das cartas 1 e 2
